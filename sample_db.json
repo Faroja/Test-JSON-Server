@@ -1,4 +1,4 @@
-"students": [
+{"students": [
     {
       "id": 1,
       "name": "Alice Johnson",
@@ -35,3 +35,4 @@
       "courses": [107]
     }
   ]
+}
