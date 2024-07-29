@@ -1,38 +1,120 @@
-{"students": [
     {
-      "id": 1,
-      "name": "Alice Johnson",
-      "age": 20,
-      "grade": "Sophomore",
-      "courses": [101, 102]
-    },
-    {
-      "id": 2,
-      "name": "Bob Smith",
-      "age": 21,
-      "grade": "Junior",
-      "courses": [101, 103]
-    },
-    {
-      "id": 3,
-      "name": "Charlie Brown",
-      "age": 19,
-      "grade": "Freshman",
-      "courses": [104, 105]
-    },
-    {
-      "id": 4,
-      "name": "Daisy Miller",
-      "age": 22,
-      "grade": "Senior",
-      "courses": [103, 106]
-    },
-    {
-      "id": 5,
-      "name": "Ethan Davis",
-      "age": 23,
-      "grade": "Senior",
-      "courses": [107]
+      "students": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "age": 20,
+          "grade": "Sophomore",
+          "courses": [101, 102]
+        },
+        {
+          "id": 2,
+          "name": "Bob Smith",
+          "age": 21,
+          "grade": "Junior",
+          "courses": [101, 103]
+        },
+        {
+          "id": 3,
+          "name": "Charlie Brown",
+          "age": 19,
+          "grade": "Freshman",
+          "courses": [104, 105]
+        },
+        {
+          "id": 4,
+          "name": "Daisy Miller",
+          "age": 22,
+          "grade": "Senior",
+          "courses": [103, 106]
+        },
+        {
+          "id": 5,
+          "name": "Ethan Davis",
+          "age": 23,
+          "grade": "Senior",
+          "courses": [107]
+        }
+      ],
+      "courses": [
+        {
+          "id": 101,
+          "name": "Introduction to Computer Science",
+          "instructorId": 1,
+          "credits": 3
+        },
+        {
+          "id": 102,
+          "name": "Calculus I",
+          "instructorId": 2,
+          "credits": 4
+        },
+        {
+          "id": 103,
+          "name": "English Literature",
+          "instructorId": 3,
+          "credits": 3
+        },
+        {
+          "id": 104,
+          "name": "Introduction to Psychology",
+          "instructorId": 4,
+          "credits": 3
+        },
+        {
+          "id": 105,
+          "name": "Biology 101",
+          "instructorId": 5,
+          "credits": 4
+        },
+        {
+          "id": 106,
+          "name": "Advanced Physics",
+          "instructorId": 6,
+          "credits": 4
+        },
+        {
+          "id": 107,
+          "name": "Economics 101",
+          "instructorId": 7,
+          "credits": 3
+        }
+      ],
+      "instructors": [
+        {
+          "id": 1,
+          "name": "Dr. Emma Green",
+          "department": "Computer Science"
+        },
+        {
+          "id": 2,
+          "name": "Dr. John Doe",
+          "department": "Mathematics"
+        },
+        {
+          "id": 3,
+          "name": "Dr. Olivia White",
+          "department": "English"
+        },
+        {
+          "id": 4,
+          "name": "Dr. William Black",
+          "department": "Psychology"
+        },
+        {
+          "id": 5,
+          "name": "Dr. Sophia Blue",
+          "department": "Biology"
+        },
+        {
+          "id": 6,
+          "name": "Dr. Henry Red",
+          "department": "Physics"
+        },
+        {
+          "id": 7,
+          "name": "Dr. Grace Yellow",
+          "department": "Economics"
+        }
+      ]
     }
-  ]
-}
